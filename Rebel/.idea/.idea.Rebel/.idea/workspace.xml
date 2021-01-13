@@ -2,9 +2,508 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Coin.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Coin.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CoinDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CoinDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/license.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/read me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/read me.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/retro.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fonts/retro.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Coin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Coin/coin_23.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Coin/coin_23.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_08.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_08.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_09.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_09.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_11.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_12.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_13.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_14.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_15.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_16.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_17.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_17.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_18.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_19.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_19.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_20.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_20.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_21.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_21.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_22.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_22.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_24.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_24.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_25.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_25.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_26.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_26.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_27.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_28.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_28.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_29.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_29.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_30.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Coin/coin_30.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_08.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_08.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_09.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_09.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_11.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_12.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_13.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_14.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_15.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_16.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_17.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_17.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_18.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_19.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_19.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_20.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_20.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_21.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_21.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_22.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_22.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_23.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_23.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_24.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_24.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_25.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_25.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_26.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_26.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_27.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_28.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_28.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_29.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_29.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_30.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Explosions/explosion_30.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_08.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_08.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_09.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_09.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_11.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_12.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_13.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_14.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_15.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_16.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_17.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_17.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_18.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_19.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_19.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_20.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_20.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_21.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_21.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_22.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_22.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_23.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_23.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_24.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_24.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_25.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_25.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_26.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_26.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_27.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_28.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_28.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_29.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_29.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_30.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Game Over/game_over_30.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_08.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_08.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_09.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_09.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_11.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_12.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_13.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_14.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_15.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_16.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_17.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_17.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_18.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_19.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_19.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_20.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_20.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_21.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_21.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_22.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_22.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_23.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_23.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_24.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_24.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_25.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_25.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_26.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_26.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_27.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_28.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_28.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_29.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_29.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_30.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Hit/hit_30.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_08.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_08.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_09.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_09.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_11.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_12.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_13.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_14.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_15.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_16.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_17.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_17.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_18.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_19.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_19.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_20.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_20.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_21.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_21.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_22.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_22.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_23.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_23.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_24.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_24.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_25.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_25.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_26.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_26.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_27.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_28.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_28.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_29.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_29.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_30.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Jump/jump_30.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_08.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_08.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_09.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_09.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_11.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_12.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_13.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_14.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_15.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_16.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_17.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_17.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_18.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_19.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_19.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_20.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_20.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_21.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_21.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_22.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_22.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_23.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_23.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_24.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_24.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_25.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_25.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_26.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_26.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_27.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_28.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_28.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_29.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_29.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_30.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Laser/laser_30.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_08.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_08.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_09.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_09.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_11.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_12.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_13.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_14.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_15.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_16.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_17.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_17.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_18.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_19.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_19.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_20.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_20.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_21.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_21.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_22.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_22.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_23.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_23.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_24.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_24.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_25.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_25.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_26.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_26.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_27.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_27.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_28.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_28.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_29.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_29.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_30.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Audio/Power Up/power_up_30.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_3.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_4.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_5.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Coin/gold_6.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Demo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Demo.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Explosion.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Explosion/regularExplosion00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Explosion/regularExplosion00.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Explosion/regularExplosion01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Explosion/regularExplosion01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Explosion/regularExplosion02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Explosion/regularExplosion02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Explosion/regularExplosion03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Explosion/regularExplosion03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Font.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Font/3Dventure.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Font/3Dventure.ttf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Game Over.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Game Over/adventurer_hurt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Game Over/adventurer_hurt.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Game Over/adventurer_idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Game Over/adventurer_idle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Jump.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Jump/player_idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Jump/player_idle.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Jump/player_jump.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Jump/player_jump.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Jump/tileBrown_08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Jump/tileBrown_08.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Laser.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Laser/Laser Prefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Laser/Laser Prefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Laser/laser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Laser/laser.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Laser/ship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Laser/ship.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Power Up.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Power Up/female_cheer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Power Up/female_cheer1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Power Up/female_idle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Zero Rare/Retro Sound Effects/Demo/Power Up/female_idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Objects/Spring.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Objects/Spring.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Objects/SpringBounce.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Objects/SpringBounce.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +514,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Coin.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ennemies/ennemie.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Spring.cs" />
+      <option value="$PROJECT_DIR$/Assets/CoinDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Coin.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mzHL5UQo1dY0V4mYSH1RH4DWWe" />
