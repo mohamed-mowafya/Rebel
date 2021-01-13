@@ -2,48 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset - Shortcut.lnk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset - Shortcut.lnk.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Player/attack2.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Player/attack2.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Player/attack3.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animation/Player/attack3.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Color.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Color.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Assets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Assets/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Assets/Scripts/Colorblind.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Assets/Scripts/Colorblind.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Assets/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Assets/Shaders/Colorblind.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Assets/Shaders/Colorblind.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Blue.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Blue.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Cyan.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Cyan.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Green.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Green.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Magenta.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Magenta.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/White.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/White.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Yellow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Materials/Yellow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Test Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Demo/Test Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Documentation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Documentation/Colorblind Manual.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Documentation/Colorblind Manual.pdf.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Documentation/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Colorblind Effect/Documentation/ReadMe.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas Start Scene.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas Start Scene.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Color Controller.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Color Controller.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SceneLoader.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/SceneLoader.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Start Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Start Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SceneLoader.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_6.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_7.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_1/attack_1_8.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_6.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_7.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_8.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_2/attack_2_8.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_00.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_00.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_03.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_04.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_05.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_06.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_07.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_08.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_09.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_09.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/With a sword/attack_3/attack_3_10.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coin.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,12 +61,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Colorblind Effect/Assets/Scripts/Colorblind.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Coin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ennemies/ennemie.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Spring.cs" />
+      <option value="$PROJECT_DIR$/Assets/CoinDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Coin.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/SceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Color.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mzHL5UQo1dY0V4mYSH1RH4DWWe" />

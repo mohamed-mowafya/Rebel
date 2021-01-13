@@ -2,12 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Wilberforce;
 
 public class Player : MonoBehaviour
 {
     [Header("Player movement")]
     [SerializeField] private float runSpeed = 3f;
     [SerializeField] private float jumpSpeed = 10f;
+
+     public int coins = 0;
    // [SerializeField] private List<AnimationClip> attackAnimations;
     [Header("Sound Effects")]
     [SerializeField] private AudioClip jumpSound;
@@ -30,7 +33,14 @@ public class Player : MonoBehaviour
         FlipSprite();
         Jump();
         Attack();
+        CoinNumber();
+       
         // GetComponent<Rigidbody2D>().rotation = 0f;
+    }
+
+    public int CoinNumber()
+    {
+        return coins;
     }
 
     private void Attack()
