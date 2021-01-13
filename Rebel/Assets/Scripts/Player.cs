@@ -23,8 +23,8 @@ public class Player : MonoBehaviour
         Run();
         FlipSprite();
         Jump();
-        ClimbLadder();
-        GetComponent<Rigidbody2D>().rotation = 0f;
+       // ClimbLadder();
+       // GetComponent<Rigidbody2D>().rotation = 0f;
     }
 
     private void Run()
@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed ,GetComponent<Rigidbody2D>().velocity.y);
         GetComponent<Rigidbody2D>().velocity = playerVelocity;
         bool playerHasHorizontalSpeed = Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x) > Mathf.Epsilon; 
-        myAnimator.SetBool("running",playerHasHorizontalSpeed);
+        myAnimator.SetBool("Running",playerHasHorizontalSpeed);
 
     }
 
