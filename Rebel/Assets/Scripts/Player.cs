@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Wilberforce;
 
 public class Player : MonoBehaviour
 {
@@ -33,6 +34,7 @@ public class Player : MonoBehaviour
         Jump();
         Attack();
         CoinNumber();
+       
         // GetComponent<Rigidbody2D>().rotation = 0f;
     }
 
