@@ -31,8 +31,8 @@ public class Player : MonoBehaviour
         float controlThrow  =  Input.GetAxis("Horizontal");
         Vector2 playerVelocity = new Vector2(controlThrow * runSpeed ,GetComponent<Rigidbody2D>().velocity.y);
         GetComponent<Rigidbody2D>().velocity = playerVelocity;
-        bool playerHasHorizontalSpeed = Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x) > Mathf.Epsilon;
-        myAnimator.SetBool("Running", playerHasHorizontalSpeed);
+        bool playerHasHorizontalSpeed = Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x) > Mathf.Epsilon; 
+        myAnimator.SetBool("Running",playerHasHorizontalSpeed);
 
     }
 
