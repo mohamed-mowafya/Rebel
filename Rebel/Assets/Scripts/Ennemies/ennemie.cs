@@ -16,4 +16,10 @@ public class ennemie : MonoBehaviour
     {
         transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("oi");
+        currentSpeed = 0;
+    }
 }
