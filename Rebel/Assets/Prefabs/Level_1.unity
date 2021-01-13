@@ -128,6 +128,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1695440437, guid: fc6ba4ca42b1ed543957cc84dcff5b26, type: 3}
+      propertyPath: m_Size.y
+      value: 2.4521885
+      objectReference: {fileID: 0}
+    - target: {fileID: 1695440437, guid: fc6ba4ca42b1ed543957cc84dcff5b26, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.016093254
+      objectReference: {fileID: 0}
     - target: {fileID: 1695440438, guid: fc6ba4ca42b1ed543957cc84dcff5b26, type: 3}
       propertyPath: m_Constraints
       value: 4
@@ -150,7 +158,7 @@ PrefabInstance:
     - target: {fileID: 8252444375581470070, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5
+      value: 19.1
       objectReference: {fileID: 0}
     - target: {fileID: 8252444375581470070, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
         type: 3}
@@ -2628,6 +2636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363486822357960694, guid: 5ec66243070a81d4b9246ea0f38a0ac6,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4363486822357960694, guid: 5ec66243070a81d4b9246ea0f38a0ac6,
         type: 3}
