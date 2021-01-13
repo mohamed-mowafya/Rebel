@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     [Header("Player movement")]
     [SerializeField] private float runSpeed = 3f;
     [SerializeField] private float jumpSpeed = 10f;
-
+   // [SerializeField] private List<AnimationClip> attackAnimations;
     [Header("Sound Effects")]
     [SerializeField] private AudioClip jumpSound;
     [SerializeField][Range(0,1)] private float jumpSoundVolume = 0.25f;
@@ -29,9 +29,24 @@ public class Player : MonoBehaviour
         Run();
         FlipSprite();
         Jump();
+        Attack();
         // GetComponent<Rigidbody2D>().rotation = 0f;
     }
 
+    private void Attack()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            myAnimator.SetBool("Attacking", true);
+            StartCoroutine(WaitForAnimation());
+        }
+    }
+
+    IEnumerator WaitForAnimation()
+    {
+        yield return new WaitForSeconds(0.4f);
+        myAnimator.SetBool("Attacking", false);
+    }
     private void Run()
     {
         float controlThrow  =  Input.GetAxis("Horizontal");
