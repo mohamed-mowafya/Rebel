@@ -70,5 +70,13 @@ public class Player : MonoBehaviour
             myAnimator.SetBool("climbing",false);
         }
     }
+
+
+    private void Hello()
+    {
+        Debug.Log("Hello");
+    }
+
+
     
 }
