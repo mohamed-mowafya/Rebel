@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 663963028085662567}
   - component: {fileID: 663963028085662566}
   - component: {fileID: 663963028085662569}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Virual Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 663963028085662564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 33.5, y: 2.18, z: -10.512831}
+  m_LocalPosition: {x: 101.9, y: 2.18, z: -10.512831}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 663963028795005068}
@@ -55,7 +55,7 @@ MonoBehaviour:
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
-    OrthographicSize: 15
+    OrthographicSize: 12
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -94,7 +94,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 663963028494232949}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Cameras 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 663963028795005068}
   - component: {fileID: 663963028795005070}
   - component: {fileID: 663963028795005071}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,6 +216,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 8490549183580699353, guid: a9b67b332b588454e8e1cd09db076454,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 8490549183580699354, guid: a9b67b332b588454e8e1cd09db076454,
         type: 3}
       propertyPath: m_RootOrder
@@ -224,7 +229,7 @@ PrefabInstance:
     - target: {fileID: 8490549183580699354, guid: a9b67b332b588454e8e1cd09db076454,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.5
+      value: 101.9
       objectReference: {fileID: 0}
     - target: {fileID: 8490549183580699354, guid: a9b67b332b588454e8e1cd09db076454,
         type: 3}
@@ -289,7 +294,7 @@ PrefabInstance:
     - target: {fileID: 8490549183580699355, guid: a9b67b332b588454e8e1cd09db076454,
         type: 3}
       propertyPath: orthographic size
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a9b67b332b588454e8e1cd09db076454, type: 3}
