@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5922351657986683166}
   m_Layer: 0
   m_Name: Color Controller
-  m_TagString: Untagged
+  m_TagString: Color Controller
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43,3 +43,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95740134ebc230b45b0f5a3b9db13ebb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  option: 0
