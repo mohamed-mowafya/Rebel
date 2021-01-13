@@ -10,6 +10,7 @@
           <e p="Ennemies" t="Include">
             <e p="ennemie.cs" t="Include" />
           </e>
+          <e p="Health.cs" t="Include" />
           <e p="Player.cs" t="Include" />
         </e>
         <e p="Spring.cs" t="Include" />
