@@ -145,12 +145,12 @@ PrefabInstance:
     - target: {fileID: 8252444375581470070, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -15.48
+      value: -15.7
       objectReference: {fileID: 0}
     - target: {fileID: 8252444375581470070, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.05
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8252444375581470070, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
         type: 3}
@@ -767,6 +767,26 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &1142816773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3936260569064913059, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
+    type: 3}
+  m_PrefabInstance: {fileID: 483276035}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1142816779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142816773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da1d2bc0830ab0742ac2bd9ee81815e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runSpeed: 6
+  jumpSpeed: 10
 --- !u!1 &2065067644
 GameObject:
   m_ObjectHideFlags: 0
@@ -5071,6 +5091,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Tiles.Array.data[154].second.m_TileObjectToInstantiateIndex
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363486822357960695, guid: 5ec66243070a81d4b9246ea0f38a0ac6,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4363486822357960695, guid: 5ec66243070a81d4b9246ea0f38a0ac6,
         type: 3}
