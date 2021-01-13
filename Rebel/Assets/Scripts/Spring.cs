@@ -6,7 +6,7 @@ using UnityEngine;
 public class Spring : MonoBehaviour
 {
     [SerializeField] private float jumpSpeed = 10f;
-    [SerializeField] private Player player;
+    [SerializeField] private Player playerPrefab;
     private Animator myAnimator;
 
     private void Start()
@@ -17,7 +17,7 @@ public class Spring : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         Vector2 jumpVelocity = new Vector2(0f, jumpSpeed);
-        player.GetComponent<Rigidbody2D>().velocity +=jumpVelocity;
+        playerPrefab.GetComponent<Rigidbody2D>().velocity +=jumpVelocity;
         myAnimator.SetBool("Spring", true);
         StartCoroutine(ExitAnimation());
     }

@@ -78,7 +78,8 @@ public class Player : MonoBehaviour
     {
        
         
-        if (Input.GetButtonDown("Jump") && myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
+        if (Input.GetButtonDown("Jump") && myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")) 
+                                        && !myCollider2D.IsTouchingLayers(LayerMask.GetMask("Spring")))
         {
            
             Vector2 jumpVelocity = new Vector2(0f, jumpSpeed);

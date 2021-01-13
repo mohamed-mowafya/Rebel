@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Color Controller
   - Coin Text
+  - Music
   layers:
   - Default
   - TransparentFX
@@ -16,10 +17,10 @@ TagManager:
   - 
   - 
   - Ground
+  - Spring
   - Player
   - Background
   - Camera
-  - 
   - 
   - 
   - 
