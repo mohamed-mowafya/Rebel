@@ -152,7 +152,7 @@ PrefabInstance:
     - target: {fileID: 8252444375581470070, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2
+      value: 1.21
       objectReference: {fileID: 0}
     - target: {fileID: 8252444375581470070, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
         type: 3}
@@ -431,18 +431,23 @@ PrefabInstance:
     - target: {fileID: 663963027419241186, guid: 3688840a5801db342965f13877e67025,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.291761
+      value: 8.289351
       objectReference: {fileID: 0}
     - target: {fileID: 663963027419241186, guid: 3688840a5801db342965f13877e67025,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.6991124
+      value: 4.6991096
       objectReference: {fileID: 0}
     - target: {fileID: 663963028085662566, guid: 3688840a5801db342965f13877e67025,
         type: 3}
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1142816778}
+    - target: {fileID: 663963028085662567, guid: 3688840a5801db342965f13877e67025,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.21
+      objectReference: {fileID: 0}
     - target: {fileID: 663963028085662569, guid: 3688840a5801db342965f13877e67025,
         type: 3}
       propertyPath: m_BoundingShape2D
@@ -575,6 +580,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8094530219813971873, guid: 659f66081bf708b4c994b25e073afd69,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8094530219813971873, guid: 659f66081bf708b4c994b25e073afd69,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8094530219813971873, guid: 659f66081bf708b4c994b25e073afd69,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ce358c386fbc8ef4093251d07fcf1eaa,
+        type: 3}
+    - target: {fileID: 8094530219813971873, guid: 659f66081bf708b4c994b25e073afd69,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8094530219813971875, guid: 659f66081bf708b4c994b25e073afd69,
         type: 3}

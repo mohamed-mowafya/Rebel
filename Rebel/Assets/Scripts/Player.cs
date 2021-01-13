@@ -66,6 +66,8 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
+       
+        
         if (Input.GetButtonDown("Jump") && myCollider2D.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
            
