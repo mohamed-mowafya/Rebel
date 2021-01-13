@@ -23,8 +23,7 @@ public class Player : MonoBehaviour
         Run();
         FlipSprite();
         Jump();
-       // ClimbLadder();
-       // GetComponent<Rigidbody2D>().rotation = 0f;
+        // GetComponent<Rigidbody2D>().rotation = 0f;
     }
 
     private void Run()
@@ -54,21 +53,4 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void ClimbLadder()
-    {
-        if (myCollider2D.IsTouchingLayers(LayerMask.GetMask("Climbing")))
-        {
-            float controlThrow  =  Input.GetAxis("Vertical");
-            Vector2 climbVelocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, climbSpeed * controlThrow);
-            GetComponent<Rigidbody2D>().velocity += climbVelocity;
-            bool playerHasVerticalSpeed = Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y) > Mathf.Epsilon;
-            myAnimator.SetBool("climbing",playerHasVerticalSpeed);
-
-        }
-        else
-        {
-            myAnimator.SetBool("climbing",false);
-        }
-    }
-    
 }
