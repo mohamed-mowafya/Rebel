@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="" />
+    <list default="true" id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/spring.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/spring/Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/spring/Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/spring/spring.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/spring/spring.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/spring/spring.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animation/spring/spring.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spring.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spring.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/spring.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/spring.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/spring.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/spring.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +31,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Spring.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mzHL5UQo1dY0V4mYSH1RH4DWWe" />
@@ -24,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -49,15 +69,21 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="" />
       <created>1610489451696</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610489451696</updated>
       <workItem from="1610489465441" duration="9000" />
+      <workItem from="1610516615501" duration="1884000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
@@ -74,6 +100,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
