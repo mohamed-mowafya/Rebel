@@ -23,6 +23,7 @@
           <e p="license.txt" t="Include" />
           <e p="read me.txt" t="Include" />
         </e>
+        <e p="MineCollider.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Coin.cs" t="Include" />
           <e p="CoinDisplay.cs" t="Include" />
@@ -32,6 +33,7 @@
             <e p="ennemie.cs" t="Include" />
           </e>
           <e p="Health.cs" t="Include" />
+          <e p="MusicPlayer.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
           <e p="Spring.cs" t="Include" />
