@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     {
         Run();
         FlipSprite();
-        //Jump();
+        Jump();
        // ClimbLadder();
        // GetComponent<Rigidbody2D>().rotation = 0f;
     }

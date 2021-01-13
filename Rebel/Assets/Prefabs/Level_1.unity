@@ -786,7 +786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   runSpeed: 6
-  jumpSpeed: 10
+  jumpSpeed: 5
 --- !u!1 &2065067644
 GameObject:
   m_ObjectHideFlags: 0
@@ -2628,6 +2628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Grid
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363486822357960689, guid: 5ec66243070a81d4b9246ea0f38a0ac6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4363486822357960694, guid: 5ec66243070a81d4b9246ea0f38a0ac6,
         type: 3}
