@@ -128,18 +128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1695440437, guid: fc6ba4ca42b1ed543957cc84dcff5b26, type: 3}
-      propertyPath: m_Size.y
-      value: 2.4521885
-      objectReference: {fileID: 0}
-    - target: {fileID: 1695440437, guid: fc6ba4ca42b1ed543957cc84dcff5b26, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.016093254
-      objectReference: {fileID: 0}
-    - target: {fileID: 1695440438, guid: fc6ba4ca42b1ed543957cc84dcff5b26, type: 3}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 3936260569064913059, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
         type: 3}
       propertyPath: m_Name
@@ -775,26 +763,6 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
---- !u!1 &1142816773 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3936260569064913059, guid: fc6ba4ca42b1ed543957cc84dcff5b26,
-    type: 3}
-  m_PrefabInstance: {fileID: 483276035}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1142816779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1142816773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da1d2bc0830ab0742ac2bd9ee81815e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runSpeed: 6
-  jumpSpeed: 30
 --- !u!1 &2065067644
 GameObject:
   m_ObjectHideFlags: 0
