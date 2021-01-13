@@ -1,7 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="" />
+    <list default="true" id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Scenes/Sample_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Scenes/Sample_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_00.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_00.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_04.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_05.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_08.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_09.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_09.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/bow/bow_10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_00.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_00.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_04.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_05.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_5.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_6.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/idle/idle_7.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_00.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_00.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_04.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_05.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_08.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_09.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_09.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/roll/roll_10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_00.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_00.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_04.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_05.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_08.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_09.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/run/run_09.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Water.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/run.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +64,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1mzHL5UQo1dY0V4mYSH1RH4DWWe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,6 +81,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -42,16 +103,23 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="" />
       <created>1610489451696</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610489451696</updated>
       <workItem from="1610489465441" duration="9000" />
+      <workItem from="1610507286040" duration="1482000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -63,6 +131,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
