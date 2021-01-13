@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Player/SwordAttack1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Player/SwordAttack1.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Player/SwordAttack2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Player/SwordAttack2.mp3.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Player/death.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Player/death.wav.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WaterDeath.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WaterDeath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Water.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WaterDeath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/WaterDeath.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Coins.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Coins.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Ennemies/SwordAttack1.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Ennemies/SwordAttack1.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Ennemies/SwordAttack2.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sounds/Ennemies/SwordAttack2.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/spring.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/spring.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WaterDeath.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WaterDeath.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +27,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Colorblind Effect/Assets/Scripts/Colorblind.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Coin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/WaterDeath.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ennemies/ennemie.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Spring.cs" />
       <option value="$PROJECT_DIR$/Assets/CoinDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Color.cs" />
       <option value="$PROJECT_DIR$/Assets/Coin.cs" />
@@ -43,6 +40,9 @@
       <option value="$PROJECT_DIR$/Assets/DontDestroyCoin.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Coin.cs" />
       <option value="$PROJECT_DIR$/Assets/WaterDeath.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CoinDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Spring.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mzHL5UQo1dY0V4mYSH1RH4DWWe" />

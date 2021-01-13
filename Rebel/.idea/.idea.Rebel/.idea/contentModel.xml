@@ -35,11 +35,11 @@
           <e p="Player.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
           <e p="Spring.cs" t="Include" />
+          <e p="WaterDeath.cs" t="Include" />
         </e>
         <e p="sprite muzzle flashes" t="Include">
           <e p="AnimatedTexture.cs" t="Include" />
         </e>
-        <e p="WaterDeath.cs" t="Include" />
         <e p="Zero Rare" t="Include">
           <e p="Retro Sound Effects" t="Include">
             <e p="Demo" t="Include">
