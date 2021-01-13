@@ -564,6 +564,22 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 505578069}
+    - target: {fileID: 1326954517, guid: 659f66081bf708b4c994b25e073afd69, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3415556
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326954517, guid: 659f66081bf708b4c994b25e073afd69, type: 3}
+      propertyPath: m_Size.y
+      value: 0.042067885
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326954517, guid: 659f66081bf708b4c994b25e073afd69, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.027143002
+      objectReference: {fileID: 0}
+    - target: {fileID: 1326954517, guid: 659f66081bf708b4c994b25e073afd69, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.5128555
+      objectReference: {fileID: 0}
     - target: {fileID: 8094530219813971872, guid: 659f66081bf708b4c994b25e073afd69,
         type: 3}
       propertyPath: m_RootOrder
