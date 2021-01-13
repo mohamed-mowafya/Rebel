@@ -131,7 +131,7 @@ GameObject:
   m_Component:
   - component: {fileID: 249053940}
   - component: {fileID: 249053939}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rocks_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351317523}
   - component: {fileID: 351317522}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rocks_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 534758216}
   - component: {fileID: 534758215}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: timber_brace_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 774943044}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -419,7 +419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 844931848}
   - component: {fileID: 844931847}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: rocks_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -490,6 +490,12 @@ Transform:
   m_Father: {fileID: 774943044}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1203047232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5357560224464115346, guid: 6f8d4890fb5d7524ebe853dc3ecb3b8d,
+    type: 3}
+  m_PrefabInstance: {fileID: 9005379024083938703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1264487560
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +506,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1264487561}
   - component: {fileID: 1264487562}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: mine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1397954753}
   - component: {fileID: 1397954754}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: skull
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,18 +658,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1507279797 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9005379025582009914, guid: 6f8d4890fb5d7524ebe853dc3ecb3b8d,
-    type: 3}
-  m_PrefabInstance: {fileID: 9005379024083938703}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da1d2bc0830ab0742ac2bd9ee81815e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1869816102
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,7 +668,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869816104}
   - component: {fileID: 1869816103}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: timber_brace_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -755,7 +749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013935781}
   - component: {fileID: 2013935780}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: timber_brace_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -836,7 +830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2043222386}
   - component: {fileID: 2043222385}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1135,7 +1129,7 @@ PrefabInstance:
         type: 3}
       propertyPath: playerPrefab
       value: 
-      objectReference: {fileID: 1507279797}
+      objectReference: {fileID: 1203047232}
     - target: {fileID: 5131322385673588192, guid: 98eb3510f6b885c40a2330cd3ee0cd0e,
         type: 3}
       propertyPath: m_RootOrder
@@ -1338,7 +1332,7 @@ PrefabInstance:
         type: 3}
       propertyPath: playerPrefab
       value: 
-      objectReference: {fileID: 1507279797}
+      objectReference: {fileID: 1203047232}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5f589c45f9a5c84986f9c16f26b6304, type: 3}
 --- !u!1001 &6512113475312343862
@@ -1412,7 +1406,7 @@ PrefabInstance:
         type: 3}
       propertyPath: playerPrefab
       value: 
-      objectReference: {fileID: 1507279797}
+      objectReference: {fileID: 1203047232}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1c25314e87c947488a7ee82f7b7e022, type: 3}
 --- !u!4 &8252444375644991176 stripped
@@ -1561,6 +1555,6 @@ PrefabInstance:
         type: 3}
       propertyPath: playerPrefab
       value: 
-      objectReference: {fileID: 1507279797}
+      objectReference: {fileID: 1203047232}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2bfe8f85a55fb4541872afcf67d7a804, type: 3}
