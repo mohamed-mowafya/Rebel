@@ -18,6 +18,13 @@ public class CoinDisplay : MonoBehaviour
 
     private void CoinUpdate()
     {
-        GetComponent<Text>().text =  FindObjectOfType<Player>().CoinNumber().ToString();
+        if (FindObjectOfType<Player>())
+        {
+            if (FindObjectOfType<Player>().CoinNumber() < 0)
+            {
+                return;
+            }
+            GetComponent<Text>().text =  FindObjectOfType<Player>().CoinNumber().ToString();
         }
+    }
 }

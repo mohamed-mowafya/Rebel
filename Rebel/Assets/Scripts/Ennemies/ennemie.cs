@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using System;
+using System.Linq.Expressions;
 using UnityEngine;
 using System.Collections;
 
@@ -41,20 +42,22 @@ public class ennemie : MonoBehaviour
     
     
     //Verifier s'il y a collision avec le player.
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        GameObject otherObject = collision.gameObject;
 
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        GameObject otherObject = other.gameObject;
+        StartCoroutine(TimeBetweenAttacks());
         if (otherObject.GetComponent<Player>())
         {
             Attack();
-           
-            player = otherObject.GetComponent<Player>();
         }
-
-        StartCoroutine(DelayTime());
     }
-    
+
+    IEnumerator TimeBetweenAttacks()
+    {
+        yield return new WaitForSeconds(1.5f);
+        Player.coins -= damageCause;
+    }
     //Changer animation pour attack
     private void Attack()
     {

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Wilberforce;
 
 public class Player : MonoBehaviour
@@ -9,8 +10,8 @@ public class Player : MonoBehaviour
     [Header("Player movement")]
     [SerializeField] private float runSpeed = 3f;
     [SerializeField] private float jumpSpeed = 10f;
-
-    public static int coins;
+    [SerializeField] private int dommage = 60;
+    public static int coins = 100;
    // [SerializeField] private List<AnimationClip> attackAnimations;
     [Header("Sound Effects")]
     [SerializeField] private AudioClip jumpSound;
@@ -47,6 +48,15 @@ public class Player : MonoBehaviour
        
         // GetComponent<Rigidbody2D>().rotation = 0f;
     }
+
+    //private void OnCollisionEnter2D(Collision2D other)
+   // {
+     //   if (other.gameObject.name == "Guerrier" || other.gameObject.name == "Sorcier" || other.gameObject.name == "Roi")
+     //   {
+         //   other.gameObject.GetComponent<ennemie>().DealDamage(dommage);
+    //     Debug.Log("Collision");
+    //    }
+ //   }
 
     public int CoinNumber()
     {
@@ -86,6 +96,7 @@ public class Player : MonoBehaviour
     private void DeathSound()
     {
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+       
     }
 
 
@@ -109,18 +120,26 @@ public class Player : MonoBehaviour
 
         if (myCollider2D.IsTouchingLayers(LayerMask.GetMask("Water")))
         {
-
-            Debug.Log("Die");
             DeathSound();
-            Destroy(gameObject);
-
-
+            StartCoroutine(DeathAnimation());
+            isAlive = false;
+        }
+        else if (coins <= 0)
+        {
+            DeathSound();
+            StartCoroutine(DeathAnimation());
+            isAlive = false;
         }
 
     }
 
-
-
+    IEnumerator DeathAnimation()
+    {
+        myAnimator.SetBool("Die", true);
+        yield return new WaitForSeconds(0.85f);
+        Destroy(gameObject);  
+       // SceneManager.LoadScene(4); Game Over
+    }
 
 
     private void FlipSprite()

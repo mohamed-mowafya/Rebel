@@ -123,6 +123,7 @@ MonoBehaviour:
   health: 100
   damageSubit: 20
   damageCause: 20
+  delayTime: 0
   attackSound: {fileID: 8300000, guid: 72e8c3f397f89d341ac9ba5742179a16, type: 3}
   attackSoundVolume: 0.02
   dieSound: {fileID: 8300000, guid: 740df57e51818fa44ba033305ac040d8, type: 3}
@@ -184,11 +185,11 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.011070251, y: -0.07433128}
-  m_Size: {x: 1.6176453, y: 2.3379555}
+  m_Offset: {x: 0.17533112, y: -0.07433128}
+  m_Size: {x: 1.946167, y: 2.3379555}
   m_Direction: 0
 --- !u!61 &2049685711
 BoxCollider2D:
