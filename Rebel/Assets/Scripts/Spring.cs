@@ -6,7 +6,7 @@ using UnityEngine;
 public class Spring : MonoBehaviour
 {
     [SerializeField] private float jumpSpeed = 10f;
-    [SerializeField] private Player playerPrefab;
+    [SerializeField] private GameObject playerPrefab;
     private Animator myAnimator;
 
     private void Start()

@@ -1,114 +1,157 @@
-﻿using UnityEngine;
+﻿using System.Linq.Expressions;
+using UnityEngine;
 
 public class ennemie : MonoBehaviour
 {
-
     [Header("Ennemie Settings")]
-    [Range(0f, 5f)] [SerializeField] private float currentSpeed = 0f;
-    private Player target;
-    [SerializeField] private GameObject body;
+    [SerializeField] private float moveSpeed = -1f;
+    [SerializeField] private float health = 100f;
+    [SerializeField] private int damageSubit = 20;
+    [SerializeField] private int damageCause = 20;
 
     [Header("Sound Effects")]
     [SerializeField] private AudioClip attackSound;
     [SerializeField] [Range(0, 1)] private float attackSoundVolume = 0.1f;
+    [SerializeField] private AudioClip dieSound;
+    [SerializeField] [Range(0, 1)] private float dieSoundVolume = 0.1f;
 
-    // Start is called before the first frame update
+    //Cached components references
+    private Rigidbody2D myRigidBody;
+    private Animator myAnimator;
+    private Player player;
+
     void Start()
     {
-        
+        myRigidBody = GetComponent<Rigidbody2D>();
+        myAnimator = GetComponent<Animator>();
     }
-    
-    // Faire le personage bouger.
+
     void Update()
     {
-        transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
         UpdateAttackState();
+        Walk();
     }
 
-    //Permet dde faire le personage ne pas bouger ou recomancer a bouger.
     public void SetMovementSpeed(float speed)
     {
-        currentSpeed = speed;
+        moveSpeed = speed;
     }
-
-    //Faire l'attack s'il y a une collision avec le player.
+    
+    
+    //Verifier s'il y a collision avec le player.
     private void OnTriggerEnter2D(Collider2D collision)
     {
         GameObject otherObject = collision.gameObject;
 
         if (otherObject.GetComponent<Player>())
         {
-            Attack(otherObject.GetComponent<Player>());
+            Attack();
+            player = otherObject.GetComponent<Player>();
+        }
+
+    }
+    
+    //Changer animation pour attack
+    private void Attack()
+    {
+        myAnimator.SetBool("IsAttacking", true);
+    }
+
+    //Checker le bon cotê et la velocite
+    private void Walk()
+    {
+        if (IsFacingRigth())
+        {
+            myRigidBody.velocity = new Vector2(moveSpeed, 0f);
         }
         else
         {
-            ChangeSide();
+            myRigidBody.velocity = new Vector2(-moveSpeed, 0f);
         }
-
     }
 
-    //Sert pour que le enemie ne sort pas de l'écran ou depasse un autre objet si on veut.
-    private void ChangeSide()
+    //Test si l'ennemi marche vers la droit ou gauche
+    bool IsFacingRigth()
     {
-        if (body.GetComponent<SpriteRenderer>().flipX)
-        {
-            body.GetComponent<SpriteRenderer>().flipX = false;
-        }
-        else
-        {
-            body.GetComponent<SpriteRenderer>().flipX = true;
-
-        }
-        currentSpeed *= -1;
+        return transform.localScale.x < 0;
     }
 
-    //Changer l'animation pour l'attack
-    public void Attack(Player player)
+    //Rotate le ennemi dans le x (droit ou gauche)
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        GetComponent<Animator>().SetBool("IsAttacking", true);
-        target = player;
-    }
-
-    //Si le player fuit il faut arreter de attacker.
-    private void UpdateAttackState()
-    {
-        if (target)
-        {
-            if (Mathf.Abs(target.GetComponent<Transform>().position.x - GetComponent<Transform>().position.x) > 5) //usually is 3. something
-            {
-                GetComponent<Animator>().SetBool("IsAttacking", false);
-            }
-        }
-        return;
-
+        transform.localScale = new Vector2(-(Mathf.Sign(myRigidBody.velocity.x)), 1f);
     }
 
 
-    public void StrikeCurrentTarget(float damage)
+    //TODO
+    //Faire l'attack.
+    public void StrikeCurrentTarget()
     {
-        if (!target)
+        if (!player)
         {
             return;
         }
         else
         {
-            Debug.Log("Damage");
+            //player.BeingAttacked(damageCause)
             PlayAttackSound();
-
         }
 
-       /* Health health = target.GetComponent<Health>();
-        if (health)
-        {
-            health.DealDamage(damage);
-        }*/
+       
+        
     }
 
+    public void BeingAttacked()
+    {
+        myAnimator.SetBool("IsBeingAttacked", true);
+        DealDamage(damageSubit);
+    }
 
+    //TODO talves colocar false logo apos no IsDying
+    public void Die()
+    {
+        myAnimator.SetBool("IsDying", true);
+        PlayDieSound();
+    }
 
+    public void DealDamage(int damage)
+    {
+        
+        health -= damage;
+        BeingAttacked();
+
+        if (health <= 0)
+        {
+            Die();
+            Destroy(gameObject);
+        }
+
+    }
+
+    //TODO
+    //VOIR SI ÇA MARCHE AVEC LE PLAYER
+    private void UpdateAttackState()
+    {
+        if (player)
+        {
+            if (Mathf.Abs(player.GetComponent<Transform>().position.x - GetComponent<Transform>().position.x) > 5
+            ) //usually is 3. something
+            {
+                GetComponent<Animator>().SetBool("IsAttacking", false);
+            }
+        }
+
+        return;
+    }
+
+    //SOUND EFFECTS
     private void PlayAttackSound()
     {
         AudioSource.PlayClipAtPoint(attackSound, Camera.main.transform.position, attackSoundVolume);
     }
 
+    private void PlayDieSound()
+    {
+        AudioSource.PlayClipAtPoint(dieSound, Camera.main.transform.position, dieSoundVolume);
+    }
 }
