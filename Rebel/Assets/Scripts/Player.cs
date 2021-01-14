@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float runSpeed = 3f;
     [SerializeField] private float jumpSpeed = 10f;
     [SerializeField] private int dommage = 60;
-    public static int coins = 100;
+    public static int coins = 150;
    // [SerializeField] private List<AnimationClip> attackAnimations;
     [Header("Sound Effects")]
     [SerializeField] private AudioClip jumpSound;
