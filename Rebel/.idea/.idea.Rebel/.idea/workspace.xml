@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Water.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_00.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_00.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_03.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_04.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_05.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_06.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2D Platformer Tileset/Sprites/Player/Without a sword/die/die_07.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/Player/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ennemies/Guerrier.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ennemies/Guerrier.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ennemies/Roi.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ennemies/Roi.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ennemies/Sorcier.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ennemies/Sorcier.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game Status.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Status.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Grid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Grid.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoinDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoinDisplay.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ennemies/ennemie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ennemies/ennemie.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +37,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Colors.cs" />
       <option value="$PROJECT_DIR$/Assets/SimpleHealthBar/Healthbar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Spring.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/CoinDisplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Ennemies/ennemie.cs" />
     </changedPaths>
   </component>
@@ -109,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610489451696</updated>
       <workItem from="1610489465441" duration="9000" />
-      <workItem from="1610593931978" duration="3637000" />
+      <workItem from="1610593931978" duration="5119000" />
     </task>
     <servers />
   </component>

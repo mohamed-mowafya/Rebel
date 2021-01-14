@@ -48,15 +48,28 @@ public class Player : MonoBehaviour
        
         // GetComponent<Rigidbody2D>().rotation = 0f;
     }
+    
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        GameObject otherObject = other.gameObject;
+        StartCoroutine(TimeBetweenAttacks(otherObject));
+    }
 
-    //private void OnCollisionEnter2D(Collision2D other)
-   // {
-     //   if (other.gameObject.name == "Guerrier" || other.gameObject.name == "Sorcier" || other.gameObject.name == "Roi")
-     //   {
-         //   other.gameObject.GetComponent<ennemie>().DealDamage(dommage);
-    //     Debug.Log("Collision");
-    //    }
- //   }
+    IEnumerator TimeBetweenAttacks(GameObject other)
+    {
+        if (!other.GetComponent<ennemie>())
+        {
+            yield return new WaitForSeconds(0f);
+        }
+        
+        else if (other.GetComponent<ennemie>())
+        {
+            yield return new WaitForSeconds(1.5f);
+            other.GetComponent<ennemie>().BeingAttacked();
+        }
+       
+        
+    }
 
     public int CoinNumber()
     {

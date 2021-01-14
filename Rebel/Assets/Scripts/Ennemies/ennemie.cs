@@ -7,7 +7,7 @@ public class ennemie : MonoBehaviour
 {
     [Header("Ennemie Settings")]
     [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float health = 100f;
+    [SerializeField] public float health = 100f;
     [SerializeField] private int damageSubit = 20;
     [SerializeField] private int damageCause = 20;
     [SerializeField] private float delayTime = 0f;
@@ -123,7 +123,7 @@ public class ennemie : MonoBehaviour
     public void BeingAttacked()
     {
         myAnimator.SetBool("IsBeingAttacked", true);
-        DealDamage(damageSubit);
+        DealDamage(20);
     }
 
     //TODO talves colocar false logo apos no IsDying
@@ -137,8 +137,6 @@ public class ennemie : MonoBehaviour
     {
         
         health -= damage;
-        BeingAttacked();
-
         if (health <= 0)
         {
             Die();
