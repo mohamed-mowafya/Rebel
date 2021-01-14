@@ -223,12 +223,12 @@ PrefabInstance:
     - target: {fileID: 8252444375581470070, guid: a21dbff0594c19247a73cac23abf295e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 152.7
+      value: -4.77
       objectReference: {fileID: 0}
     - target: {fileID: 8252444375581470070, guid: a21dbff0594c19247a73cac23abf295e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.4
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 8252444375581470070, guid: a21dbff0594c19247a73cac23abf295e,
         type: 3}
@@ -1170,6 +1170,87 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c933baeaa0746e49856fb984781f846, type: 3}
+--- !u!1 &1770459218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1770459220}
+  - component: {fileID: 1770459219}
+  m_Layer: 0
+  m_Name: Logo_Bdeb
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1770459219
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770459218}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 5
+  m_Sprite: {fileID: 21300000, guid: 931d41b9286395b47b0fa624b79a1487, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 3.87, y: 4.47}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1770459220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770459218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 23.3, y: 4.01, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1869816102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1645,12 +1726,12 @@ PrefabInstance:
     - target: {fileID: 2683979113616836921, guid: 434e5d38d3cc3514386ca0586d380eed,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 152.7
+      value: 8.138773
       objectReference: {fileID: 0}
     - target: {fileID: 2683979113616836921, guid: 434e5d38d3cc3514386ca0586d380eed,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.4
+      value: 1.8229613
       objectReference: {fileID: 0}
     - target: {fileID: 2683979114023219378, guid: 434e5d38d3cc3514386ca0586d380eed,
         type: 3}
@@ -1660,12 +1741,12 @@ PrefabInstance:
     - target: {fileID: 2683979114023219388, guid: 434e5d38d3cc3514386ca0586d380eed,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 152.7
+      value: -4.77
       objectReference: {fileID: 0}
     - target: {fileID: 2683979114023219388, guid: 434e5d38d3cc3514386ca0586d380eed,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.4
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 2683979114023219389, guid: 434e5d38d3cc3514386ca0586d380eed,
         type: 3}
