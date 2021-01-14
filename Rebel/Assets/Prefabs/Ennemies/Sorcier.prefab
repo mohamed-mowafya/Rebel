@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6568958387291177214}
   - component: {fileID: 2049685710}
   - component: {fileID: 2049685711}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Sorcier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6568958387511315755}
   - component: {fileID: 6568958387511315757}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
