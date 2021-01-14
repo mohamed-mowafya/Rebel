@@ -121,8 +121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: -1
   health: 100
-  damageSubit: 20
-  damageCause: 20
+  damageSubit: 5
+  damageCause: 5
   delayTime: 0
   attackSound: {fileID: 8300000, guid: 72e8c3f397f89d341ac9ba5742179a16, type: 3}
   attackSoundVolume: 0.02
