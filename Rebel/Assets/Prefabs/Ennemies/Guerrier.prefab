@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 1436813508676534968}
   - component: {fileID: 1436813508676534967}
   - component: {fileID: 1436813508676534966}
-  - component: {fileID: 5249286898895389625}
   - component: {fileID: 5249286897236064902}
   - component: {fileID: 5249286897236064903}
   m_Layer: 0
@@ -202,6 +201,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: -1
+  health: 100
+  damageSubit: 20
+  damageCause: 20
   attackSound: {fileID: 8300000, guid: 2514086edbbbfc343887516b7d049a41, type: 3}
   attackSoundVolume: 0.05
   dieSound: {fileID: 8300000, guid: d85f33c9821b8bf41ab533ec0984be51, type: 3}
@@ -253,18 +255,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &5249286898895389625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1436813508676534965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e19dba312d3490459c4456588e49d89, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!70 &5249286897236064902
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

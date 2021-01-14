@@ -5,7 +5,9 @@ public class ennemie : MonoBehaviour
 {
     [Header("Ennemie Settings")]
     [SerializeField] private float moveSpeed = -1f;
-
+    [SerializeField] private float health = 100f;
+    [SerializeField] private int damageSubit = 20;
+    [SerializeField] private int damageCause = 20;
 
     [Header("Sound Effects")]
     [SerializeField] private AudioClip attackSound;
@@ -16,21 +18,16 @@ public class ennemie : MonoBehaviour
     //Cached components references
     private Rigidbody2D myRigidBody;
     private Animator myAnimator;
-    private CapsuleCollider2D myBodyCollider;
-    private BoxCollider2D myFeet;
     private Player player;
 
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
-        myBodyCollider = GetComponent<CapsuleCollider2D>();
-        myFeet = GetComponent<BoxCollider2D>();
     }
 
     void Update()
     {
-        //Die();
         UpdateAttackState();
         Walk();
     }
@@ -39,8 +36,7 @@ public class ennemie : MonoBehaviour
     {
         moveSpeed = speed;
     }
-
-
+    
     
     //Verifier s'il y a collision avec le player.
     private void OnTriggerEnter2D(Collider2D collision)
@@ -89,7 +85,7 @@ public class ennemie : MonoBehaviour
 
     //TODO
     //Faire l'attack.
-    public void StrikeCurrentTarget(float damage)
+    public void StrikeCurrentTarget()
     {
         if (!player)
         {
@@ -97,31 +93,40 @@ public class ennemie : MonoBehaviour
         }
         else
         {
-            Debug.Log("Damage");
+            //player.BeingAttacked(damageCause)
             PlayAttackSound();
-
         }
 
-        /* Health health = target.GetComponent<Health>();
-         if (health)
-         {
-             health.DealDamage(damage);
-         }*/
+       
+        
     }
 
     public void BeingAttacked()
     {
-
+        myAnimator.SetBool("IsBeingAttacked", true);
+        DealDamage(damageSubit);
     }
 
     //TODO talves colocar false logo apos no IsDying
-    private void Die()
+    public void Die()
     {
         myAnimator.SetBool("IsDying", true);
         PlayDieSound();
-        Destroy(gameObject,3f);
     }
 
+    public void DealDamage(int damage)
+    {
+        
+        health -= damage;
+        BeingAttacked();
+
+        if (health <= 0)
+        {
+            Die();
+            Destroy(gameObject);
+        }
+
+    }
 
     //TODO
     //VOIR SI ÇA MARCHE AVEC LE PLAYER
@@ -140,7 +145,7 @@ public class ennemie : MonoBehaviour
     }
 
     //SOUND EFFECTS
-        private void PlayAttackSound()
+    private void PlayAttackSound()
     {
         AudioSource.PlayClipAtPoint(attackSound, Camera.main.transform.position, attackSoundVolume);
     }
