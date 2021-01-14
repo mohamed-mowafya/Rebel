@@ -8,7 +8,7 @@ using Wilberforce;
 public class Player : MonoBehaviour
 {
     [Header("Player movement")]
-    [SerializeField] private float runSpeed = 3f;
+    [SerializeField] private float runSpeed = 6f;
     [SerializeField] private float jumpSpeed = 10f;
     [SerializeField] private int dommage = 60;
     public static int coins = 150;
