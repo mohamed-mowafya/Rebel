@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prefabs/Level1/Level_1.unity
     guid: c5add5ed6d484954bb0f1a4c1cd255d9
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Prefabs/Level2/Level 2.unity
-    guid: 31021256dd274374d9193c783b9af011
+    guid: a513c3a5156d26146b040a7d13d415ee
   m_configObjects: {}

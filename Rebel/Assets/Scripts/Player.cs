@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     [SerializeField] private float runSpeed = 3f;
     [SerializeField] private float jumpSpeed = 10f;
 
-     public int coins = 0;
+    public static int coins;
    // [SerializeField] private List<AnimationClip> attackAnimations;
     [Header("Sound Effects")]
     [SerializeField] private AudioClip jumpSound;

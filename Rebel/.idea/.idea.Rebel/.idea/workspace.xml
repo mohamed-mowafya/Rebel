@@ -2,29 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04cc920a-4db9-46a5-a8d3-8ca72301912e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MineEnter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MineEnter.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Game.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Game/background.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Game/background.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Status.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Status.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Coins.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Coins.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Rebel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Coins.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Coins.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/BG_Forest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/BG_Forest.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/BG_Forest.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/BG_Forest.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Cameras 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Cameras 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Cameras 1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Cameras 1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Grid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Grid.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Grid.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Grid.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Level_1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Level_1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Level_1.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Main Camera.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Main Camera.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Main Camera.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Main Camera.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Object.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Object.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Object.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Object.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/Player.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level1/spring.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level1/spring.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/BG_Cave.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/BG_Cave.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/BG_Cave.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/BG_Cave.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Cameras 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Cameras 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Cameras 1.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Cameras 1.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Coins.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Coins.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Coins.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Coins.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Grid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Grid.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Grid.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Grid.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Level 2.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Level 2.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Player.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 2.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 2.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 3.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 3.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 5.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring 5.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spring.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spring.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/spring.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CoinDisplay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CoinDisplay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DontDestroyCoin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DontDestroyCoin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +76,12 @@
       <option value="$PROJECT_DIR$/Assets/DontDestroyCoin.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Coin.cs" />
       <option value="$PROJECT_DIR$/Assets/WaterDeath.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/CoinDisplay.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Spring.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/CoinDisplay.cs" />
       <option value="$PROJECT_DIR$/Assets/MineEnter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DontDestroyCoin.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mzHL5UQo1dY0V4mYSH1RH4DWWe" />

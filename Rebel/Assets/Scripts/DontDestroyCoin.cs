@@ -6,10 +6,12 @@ public class DontDestroyCoin : MonoBehaviour
 {
     private void Awake()
     {
-        GameObject[] obj = GameObject.FindGameObjectsWithTag("Coin Text");
-        if (obj.Length > 1)
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("Coin Text");
+
+        if (objs.Length > 1)
         {
             Destroy(gameObject);
+            Debug.Log("Destroyed");
         }
         else
         {

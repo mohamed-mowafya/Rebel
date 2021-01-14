@@ -12,7 +12,7 @@ public class Coin : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         AudioSource.PlayClipAtPoint(coinSound,transform.position);
-        FindObjectOfType<Player>().coins +=scorePerCoin;
+        Player.coins +=scorePerCoin;
         Destroy(gameObject);
     }
 }

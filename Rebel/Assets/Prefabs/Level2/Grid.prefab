@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 410483664}
   - component: {fileID: 410483663}
   - component: {fileID: 410483659}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 3928884039191521661}
   - component: {fileID: 3928884039191521663}
   - component: {fileID: 3928884039191521662}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18832,7 +18832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3928884039417264745}
   - component: {fileID: 3928884039417264744}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
