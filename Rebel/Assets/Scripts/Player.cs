@@ -14,7 +14,13 @@ public class Player : MonoBehaviour
    // [SerializeField] private List<AnimationClip> attackAnimations;
     [Header("Sound Effects")]
     [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip deathSound;
     [SerializeField][Range(0,1)] private float jumpSoundVolume = 0.25f;
+    [SerializeField] [Range(0, 1)] private float deathSoundVolume = 0.25f;
+
+
+    
+
 
 
     private Animator myAnimator;
@@ -29,11 +35,15 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+
+        if (!isAlive) { return; }
+        
         Run();
         FlipSprite();
         Jump();
         Attack();
         CoinNumber();
+        Death();
        
         // GetComponent<Rigidbody2D>().rotation = 0f;
     }
@@ -73,6 +83,11 @@ public class Player : MonoBehaviour
         AudioSource.PlayClipAtPoint(jumpSound, Camera.main.transform.position, jumpSoundVolume);
     }
 
+    private void DeathSound()
+    {
+        AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
+    }
+
 
     private void Jump()
     {
@@ -84,9 +99,30 @@ public class Player : MonoBehaviour
            
             Vector2 jumpVelocity = new Vector2(0f, jumpSpeed);
             GetComponent<Rigidbody2D>().velocity += jumpVelocity;
-            AudioSource.PlayClipAtPoint(jumpSound, Camera.main.transform.position, jumpSoundVolume);
+            PlayJumpSound();
         }
     }
+
+
+    private void Death()
+    {
+
+        if (myCollider2D.IsTouchingLayers(LayerMask.GetMask("Water")))
+        {
+
+            Debug.Log("Die");
+            DeathSound();
+            Destroy(gameObject);
+
+
+        }
+
+    }
+
+
+
+
+
     private void FlipSprite()
     {
         bool playerHasHorizontalSpeed = Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x) > Mathf.Epsilon; // if greater than 0
