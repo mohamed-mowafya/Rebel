@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/AllPrefabsScenes/introPrefabs/final scene/IntroScene.unity
+    guid: f87e59c3c22481a4dba0be5a7ebf6769
+  - enabled: 1
+    path: Assets/AllPrefabsScenes/PresentationPrefab/presentation.unity
+    guid: 2e4b14a5c118e2949954fd17b0f5ca25
   - enabled: 0
     path: Assets/Prefabs/Start Scene.unity
     guid: b5bfde43a68d87e4598870eab3300bfe
@@ -20,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prefabs/Level3/Level3.unity
     guid: 96f8e3acff8569c42a2ce218e2d60350
+  - enabled: 1
+    path: Assets/AllPrefabsScenes/WinScreen/WinScene.unity
+    guid: c38b251663de1a74e9b6b44e83dc9c2d
+  - enabled: 1
+    path: Assets/AllPrefabsScenes/gameOverPrefabs/GameOver.unity
+    guid: ae132dca58e7a4f4b991936ea67bb895
   m_configObjects: {}
