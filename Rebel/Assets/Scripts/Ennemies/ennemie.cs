@@ -54,6 +54,7 @@ public class ennemie : MonoBehaviour
         Attack();
         Player.coins -= damageCause;
         yield return new WaitForSeconds(1f);
+        myAnimator.SetBool("IsAttacking", false);
     }
     //Changer animation pour attack
     private void Attack()
