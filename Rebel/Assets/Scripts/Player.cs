@@ -42,18 +42,18 @@ public class Player : MonoBehaviour
         Run();
         FlipSprite();
         Jump();
-        Attack();
+       // Attack();
         CoinNumber();
         Death();
        
         // GetComponent<Rigidbody2D>().rotation = 0f;
     }
     
-    private void OnCollisionStay2D(Collision2D other)
-    {
-        GameObject otherObject = other.gameObject;
-        StartCoroutine(TimeBetweenAttacks(otherObject));
-    }
+   // private void OnCollisionStay2D(Collision2D other)
+  // {
+   ///     GameObject otherObject = other.gameObject;
+    //    StartCoroutine(TimeBetweenAttacks(otherObject));
+   // }
 
     IEnumerator TimeBetweenAttacks(GameObject other)
     {

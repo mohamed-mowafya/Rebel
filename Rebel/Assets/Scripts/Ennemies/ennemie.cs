@@ -45,27 +45,21 @@ public class ennemie : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D other)
     {
-        GameObject otherObject = other.gameObject;
         StartCoroutine(TimeBetweenAttacks());
-        if (otherObject.GetComponent<Player>())
-        {
-            Attack();
-        }
+
     }
 
     IEnumerator TimeBetweenAttacks()
     {
-        yield return new WaitForSeconds(1.5f);
+        Attack();
         Player.coins -= damageCause;
+        yield return new WaitForSeconds(1f);
     }
     //Changer animation pour attack
     private void Attack()
     {
        
        myAnimator.SetBool("IsAttacking", true);
-       
-      
-
     }
 
     IEnumerator DelayTime()

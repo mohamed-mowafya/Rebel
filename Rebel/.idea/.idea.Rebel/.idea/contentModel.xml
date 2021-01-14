@@ -35,6 +35,7 @@
           </e>
           <e p="Player.cs" t="Include" />
           <e p="SceneLoader.cs" t="Include" />
+          <e p="SpawnBdeB.cs" t="Include" />
           <e p="Spring.cs" t="Include" />
           <e p="WaterDeath.cs" t="Include" />
         </e>
