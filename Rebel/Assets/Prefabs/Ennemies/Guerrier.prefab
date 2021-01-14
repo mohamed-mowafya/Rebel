@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436813508591931235}
   - component: {fileID: 1436813508591931237}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 1436813508676534966}
   - component: {fileID: 5249286897236064902}
   - component: {fileID: 5249286897236064903}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Guerrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,12 +200,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af8fbe689d699de478db121729e482bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: -1
+  moveSpeed: 5
   health: 100
   damageSubit: 20
   damageCause: 20
+  delayTime: 5
   attackSound: {fileID: 8300000, guid: 2514086edbbbfc343887516b7d049a41, type: 3}
-  attackSoundVolume: 0.05
+  attackSoundVolume: 0.1
   dieSound: {fileID: 8300000, guid: d85f33c9821b8bf41ab533ec0984be51, type: 3}
   dieSoundVolume: 0.1
 --- !u!61 &1436813508676534967
@@ -268,8 +269,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.24478126, y: -0.12955618}
-  m_Size: {x: 1.8072014, y: 2.2275057}
+  m_Offset: {x: -0.0018340349, y: -0.12955618}
+  m_Size: {x: 1.3139708, y: 2.2275057}
   m_Direction: 0
 --- !u!61 &5249286897236064903
 BoxCollider2D:

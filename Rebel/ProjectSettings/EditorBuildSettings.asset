@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Prefabs/Start Scene.unity
     guid: b5bfde43a68d87e4598870eab3300bfe
   - enabled: 1
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prefabs/Level2/Level 2.unity
     guid: a513c3a5156d26146b040a7d13d415ee
+  - enabled: 1
+    path: Assets/Prefabs/Level3/Level3.unity
+    guid: 96f8e3acff8569c42a2ce218e2d60350
   m_configObjects: {}

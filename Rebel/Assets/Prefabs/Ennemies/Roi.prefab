@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6142767458842112080}
   - component: {fileID: 1015243597591021664}
   - component: {fileID: 1015243597591021665}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Roi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,8 +187,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.27239358, y: -0.07433128}
-  m_Size: {x: 1.862426, y: 2.3379555}
+  m_Offset: {x: -0.04541588, y: -0.07433128}
+  m_Size: {x: 1.3771706, y: 2.3379555}
   m_Direction: 0
 --- !u!61 &1015243597591021665
 BoxCollider2D:
@@ -226,7 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6142767459060678021}
   - component: {fileID: 6142767459060678019}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}

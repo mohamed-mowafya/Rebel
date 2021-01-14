@@ -1,13 +1,15 @@
 ﻿using System.Linq.Expressions;
 using UnityEngine;
+using System.Collections;
 
 public class ennemie : MonoBehaviour
 {
     [Header("Ennemie Settings")]
-    [SerializeField] private float moveSpeed = -1f;
+    [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float health = 100f;
     [SerializeField] private int damageSubit = 20;
     [SerializeField] private int damageCause = 20;
+    [SerializeField] private float delayTime = 0f;
 
     [Header("Sound Effects")]
     [SerializeField] private AudioClip attackSound;
@@ -46,16 +48,30 @@ public class ennemie : MonoBehaviour
         if (otherObject.GetComponent<Player>())
         {
             Attack();
+           
             player = otherObject.GetComponent<Player>();
         }
 
+        StartCoroutine(DelayTime());
     }
     
     //Changer animation pour attack
     private void Attack()
     {
-        myAnimator.SetBool("IsAttacking", true);
+       
+       myAnimator.SetBool("IsAttacking", true);
+       
+      
+
     }
+
+    IEnumerator DelayTime()
+    {
+        yield return new WaitForSeconds(delayTime);
+        Debug.Log("Delay time");
+    }
+
+    
 
     //Checker le bon cotê et la velocite
     private void Walk()

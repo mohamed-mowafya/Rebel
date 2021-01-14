@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 410483664}
   - component: {fileID: 410483663}
   - component: {fileID: 410483659}
-  m_Layer: 10
+  m_Layer: 11
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,8 @@ GameObject:
   - component: {fileID: 3928884039191521661}
   - component: {fileID: 3928884039191521663}
   - component: {fileID: 3928884039191521662}
-  m_Layer: 0
+  - component: {fileID: 844350751}
+  m_Layer: 4
   m_Name: Water
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2938,6 +2939,22 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
+--- !u!19719996 &844350751
+TilemapCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3928884039191521660}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &3928884039399426479
 GameObject:
   m_ObjectHideFlags: 0

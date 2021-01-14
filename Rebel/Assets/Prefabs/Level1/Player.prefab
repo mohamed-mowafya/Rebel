@@ -155,6 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 6
   jumpSpeed: 30
-  coins: 0
   jumpSound: {fileID: 8300000, guid: 5e9c93ee6e13ab24e9b1de105c911c2c, type: 3}
+  deathSound: {fileID: 8300000, guid: a9eb09bd096b3094b9ffb6870b7ee656, type: 3}
   jumpSoundVolume: 0.657
+  deathSoundVolume: 0.25
