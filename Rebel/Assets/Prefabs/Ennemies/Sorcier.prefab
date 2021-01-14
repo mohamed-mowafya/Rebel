@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6568958387291177214}
   - component: {fileID: 2049685710}
   - component: {fileID: 2049685711}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Sorcier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,6 +123,7 @@ MonoBehaviour:
   health: 100
   damageSubit: 20
   damageCause: 20
+  delayTime: 0
   attackSound: {fileID: 8300000, guid: 72e8c3f397f89d341ac9ba5742179a16, type: 3}
   attackSoundVolume: 0.02
   dieSound: {fileID: 8300000, guid: 740df57e51818fa44ba033305ac040d8, type: 3}
@@ -226,7 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6568958387511315755}
   - component: {fileID: 6568958387511315757}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
